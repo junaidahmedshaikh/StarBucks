@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks | Find A Store</title>
+    <link rel="stylesheet" href="/findastore/store.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/433b452dac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navLogo"><img src="https://res.cloudinary.com/difvkvxuy/image/upload/v1669394647/Starbucks/starbucks-logo_ckndk6.png" alt=""></div>
+            <div class="hamburger">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/menu/menu.html">Menu</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="/findastore/findstore.html"><i class="fa-solid fa-location-dot"></i> Find A Store</a></li>
+            </div>
+            <!-- <div class="loginButton">
+                <a href="">Login</a>
+                <a href="">Sign Up</a>
+            </div> -->
+        </nav>
+    </header>
+    <main>
+        <section class="storeDetails">
+            <div class="fsSearchBox">
+                <input type="search" placeholder="Find A Store">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <div class="fsHeader">
+                We are unable to access your exact location
+            </div>
+            <div class="fsPara">To find a Starbucks store, use the search feature, navigate using the map, or turn on location services.</div>
+        </section>
+        <section class="map-section">
+            <div id="map"></div>
+        </section>
+    </main>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="/findastore/map.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+:root {
+    --starbusks-color: #006241;
+    --accent-color: #00754a;
+    --light-green: #d4e9e2;
+    --house-green-color: #1e3932;
+    --neutral-white-color: #f9f9f9;
+    --white-color: #ffffff;
+    --warm-white-color: #f2f0eb;
+    --para-font: 'Roboto', sans-serif;
+    --space-heading-font: 'Oswald', sans-serif;
+    --caveat-font: 'Caveat', cursive;
+    --heading-font: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#map{
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.storeDetails{
+    margin-left: 5rem;
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1rem 10rem .5rem 1rem;
+    border: none;
+    border-bottom: 2px solid;
+}
+.fsSearchBox input:focus{
+    outline: none;
+}
+.fsHeader{
+    font-family: var(--space-heading-font);
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.fsPara{
+    color: #4e4e4e;
+}
+/* .map-section{
+    border: 2px solid red;
+} */

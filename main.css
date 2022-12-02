@@ -26,12 +26,15 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.navLogo{
+
+.navLogo {
     height: 100%;
 }
-.navLogo img{
+
+.navLogo img {
     height: 100%;
 }
+
 .hamburger {
     display: flex;
     /* justify-content: space-evenly; */
@@ -45,7 +48,7 @@ body {
     color: black;
     font-family: var(--para-font);
     font-size: 1.4rem;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding: 1rem 1.5rem;
     text-decoration: none;
     /* letter-spacing: .1rem; */
@@ -63,11 +66,41 @@ body {
     border-width: 10%;
     transition: all .1s;
 }
-.hamburger li a:active{
+
+.hamburger li a:active {
     border-bottom: 2px solid var(--accent-color);
     border-width: 10%;
 }
 
+/* .side-navbar-login-button {
+    border: 2px solid red;
+} */
+
+.side-navbar-login-button a {
+    text-decoration: none;
+    font-family: var(--para-font);
+    color: black;
+    border: 2px solid var(--accent-color);
+    border-radius: 3rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    transition: all .5s;
+}
+.sideSignup{
+    background-color: var(--accent-color);
+    color: white !important;
+}
+.sideLogin{
+    color: var(--accent-color) !important;
+}
+.sideSignup:hover{
+     background-color: var(--starbusks-color);
+}
+.sideLogin:hover{
+    background-color: var(--light-green);
+      /* border: 2px solid var(--light-green); */
+    /* color: white; */
+}
 /* Homepage section */
 .homepage {
     background-color: var(--starbusks-color);
@@ -78,7 +111,6 @@ body {
 
 .homeback {
     position: relative;
-
 }
 
 .homepage-left-side {
@@ -115,7 +147,9 @@ body {
     font-size: 1.5rem;
     cursor: pointer;
     font-family: var(--space-heading-font);
-    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    /* letter-spacing: .2rem; */
 }
 
 .main-button:hover {
@@ -151,12 +185,15 @@ body {
     display: flex;
     flex-direction: column;
 }
-.fa-brands, .fab {
+
+.fa-brands,
+.fab {
     font-weight: 400;
     font-size: 2rem;
     color: var(--starbusks-color);
     margin: 1rem 0;
 }
+
 /* Category Section */
 .category {
     background-color: var(--light-green);
@@ -193,7 +230,7 @@ body {
 .contentStrip {
     display: flex;
     width: 100vw;
-
+    margin-bottom: 2rem;
 }
 
 .leftStrip,
@@ -222,7 +259,16 @@ body {
     font-size: 2rem;
     font-family: var(--caveat-font);
 }
-
+/* New Launch Product */
+.newLaunch{
+    height: auto;
+    width: 100vw;
+    margin: 0;
+}
+.newLaunch img{
+    height: 100%;
+    width: 100%;
+}
 /* Recommmend Category */
 .recommendOne {
     background-color: var(--warm-white-color);
@@ -257,6 +303,7 @@ body {
     background-color: var(--warm-white-color);
     transition: all 1s;
 }
+
 .columeOne img {
     height: 50%;
     margin-right: 3rem;
@@ -298,13 +345,14 @@ body {
     background-color: var(--house-green-color);
     transition: all 1s;
 } */
-.recommendInfo a:hover{
-        border: 2px solid green;
-        padding: .8rem 1.2rem;
-        background: transparent;
-        color: green;
-        transition: all .2s;
+.recommendInfo a:hover {
+    border: 2px solid green;
+    padding: .8rem 1.2rem;
+    background: transparent;
+    color: green;
+    transition: all .2s;
 }
+
 .main-footer {
     background-color: var(--house-green-color);
     color: var(--light-green);
@@ -336,14 +384,17 @@ body {
 
 .subscribeBox input[type=mail] {
     background-color: transparent;
+    color: var(--light-green);
     padding: 1rem 2rem;
     border: none;
     border-bottom: 2px solid var(--light-green);
+    outline: none;
 }
 
 .subscribeBox input::placeholder {
     color: var(--light-green);
     border: none;
+    font-size: 1.4rem;
 }
 
 .right-footer {

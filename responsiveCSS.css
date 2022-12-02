@@ -1,0 +1,236 @@
+@media (max-width: 1190px) {
+
+    .homepage-titleBox {
+        padding: 13rem 0 3rem 5rem;
+        margin-top: 5rem;
+        position: relative;
+        z-index: 11;
+    }
+
+    .recommendBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer Section */
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .left-footer {
+        padding: 3rem;
+    }
+
+    .subscribeBox {
+        line-height: 3rem;
+    }
+
+    .subscribeBox h2 {
+        font-size: 2rem;
+    }
+
+
+    .right-footer {
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-menu a {
+        line-height: 3rem;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .main-heading {
+        font-size: 4rem;
+        letter-spacing: 4px;
+    }
+
+    #backcircle {
+        height: 76.5%;
+        right: -7rem;
+    }
+
+    .main-desc {
+        font-size: 1.2rem;
+    }
+
+    .category {
+        background-color: var(--light-green);
+        padding: 8rem 10rem;
+        display: grid;
+        grid-template-columns: repeat(3, 12rem);
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 860px) {
+    .main-heading {
+        font-size: 3.4rem;
+    }
+
+    #backcircle {
+        visibility: hidden;
+    }
+
+    .footer-menu a {
+        line-height: 3rem;
+        font-size: small;
+    }
+
+    .subscribeBox h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+
+    #hero-cup {
+        position: relative;
+        top: 15rem;
+        left: -40%;
+    }
+
+    .main-heading,
+    .main-desc {
+        text-shadow: 2px 2px 3px black;
+    }
+
+    .homepage-titleBox {
+        padding: 13rem 0 0 0rem;
+        position: relative;
+        z-index: 11;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+    }
+
+    .category {
+        padding: 5rem 7rem;
+        display: grid;
+    }
+
+    .recommmendHeading {
+        font-size: 2rem;
+        padding: 2rem 0 3rem 4rem;
+        padding-left: 4rem;
+        top: 1rem;
+    }
+
+    .recommendBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        margin-top: 1rem;
+    }
+
+    .columeOne {
+        height: 90%;
+    }
+
+    .columeOne img {
+        margin-right: 1rem;
+        border-radius: 1rem;
+    }
+
+    .recommendInfo h2 {
+        font-size: 1.5rem;
+    }
+
+    .recommendInfo span {
+        font-size: 1rem;
+    }
+
+    .footer-menu h2 {
+        font-size: 1.3rem;
+    }
+
+    .footer-menu a {
+        font-size: 1rem;
+    }
+    .left-footer {
+        padding: 3rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .category {
+        padding: 5rem 5rem;
+    }
+
+    .category-card {
+        margin: 1rem 0;
+    }
+
+    .recommendBox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    .columeOne {
+        height: 90%;
+        width: 60%;
+    }
+    .main-footer {
+        grid-template-columns: 17rem 2fr;
+    }
+    .subscribeBox{
+        line-height: 0;
+    }
+    .subscribeBox img {
+        height: 100%;
+        width: 30%;
+    }
+    .subscribeBox h2{
+        font-size: 1rem;
+    }
+    .subscribeBox input[type=mail] {
+        padding: 1rem 0rem;
+        width: 90%;
+        border-bottom: 1px solid var(--light-green);
+    }
+    .subscribeBox input::placeholder {
+        font-size: 1rem;
+    }
+    .right-footer {
+        padding: 3rem 1rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .main-heading {
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+
+    .main-desc {
+        font-size: 1rem;
+    }
+
+    .category {
+        padding: 2rem 2rem;
+        place-items: center;
+    }
+
+    .category-card {
+        height: 60%;
+        width: 50%;
+    }
+
+    .category-card img {
+        height: 80%;
+    }
+
+    .category-card span {
+        font-size: 1.5rem;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks | Contact Us</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/responsiveCSS.css">
 </head>
 <body>
     <header>
@@ -14,18 +15,17 @@
             <div class="hamburger">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/menu/menu.html">Menu</a></li>
-                <li><a href="/whatsnew/whatsnew.html">What's New</a></li>
-                <li><a href="/contact/contact.html">Contact Us</a></li>
-                <li><a href="https://www.starbucks.com/about-us/">About US</a></li>
                 <li><a href="/findastore/findstore.html"><i class="fa-solid fa-location-dot"></i> Find A Store</a></li>
+                <li><a href="https://www.starbucks.com/about-us/">About Us</a></li>
+                <li><a href="/contact/contact.html">Contact Us</a></li>
             </div>
-            <!-- <div class="loginButton">
-                <a href="">Login</a>
-                <a href="">Sign Up</a>
-            </div> -->
+            <div class="side-navbar-login-button">
+                <a href="" class="sideLogin" >Login</a>
+                <a href="" class="sideSignup" >Sign Up</a>
+            </div>
         </nav>
     </header>
-    <main>
+    <main id="contact-of-main">
         <section id="form-book">
             <header>
                 Contact Us
@@ -35,7 +35,7 @@
                 <input type="text" name="" id="" placeholder="Phone Number">
                 <input type="text" placeholder="Full Name">
             </div>
-            <div id="contact-submit"><a href="">Submit</a></div>
+            <a id="contact-submit" href="">Submit</a>
         </section>
     </main>
 </body>

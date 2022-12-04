@@ -17,5 +17,5 @@ function initMap() {
   window.initMap = initMap;
 
   var map_parameters = { center: {lat: 47.490, lng: -117.585}, zoom: 8 };
-                var map = new google.maps.Map(document.getElementById('map'), map_parameters);
+  var map = new google.maps.Map(document.getElementById('map'), map_parameters);
   

@@ -44,7 +44,10 @@
     .footer-menu a {
         line-height: 3rem;
     }
-
+    
+    #form-book{
+        width: 25%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -70,6 +73,14 @@
         grid-template-columns: repeat(3, 12rem);
         justify-content: space-between;
     }
+    /* find a store */
+    #findastoreMain{
+        display: grid;
+        grid-template-columns: none;
+    }
+    .storeDetails{
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 860px) {
@@ -88,6 +99,18 @@
 
     .subscribeBox h2 {
         font-size: 1.5rem;
+    }
+    /* contact section */
+    #form-book{
+        padding: 5rem 2.5rem;
+        width: 40%;
+    }
+    #form-book header{
+        font-size: 1.5rem;
+    }
+    #contact-form input{
+        margin: 1rem 0;
+        padding: .5rem 1rem;
     }
 }
 
@@ -204,6 +227,25 @@
     .right-footer {
         padding: 3rem 1rem;
     }
+    /* Find A Store */
+    .fsHeader {
+        font-size: 3rem;
+    }
+    .storeDetails {
+        margin-left: 3rem;
+    }
+     /* contact section */
+     #form-book{
+        padding: 5rem 2.5rem;
+        width: 40%;
+    }
+    #form-book header{
+        font-size: 1.5rem;
+    }
+    #contact-form input{
+        margin: 1rem 0;
+        padding: .5rem 1rem;
+    }
 }
 
 @media (max-width: 490px) {
@@ -232,5 +274,16 @@
 
     .category-card span {
         font-size: 1.5rem;
+    }
+    /* Find A Store */
+    .fsHeader {
+        font-size: 2rem;
+    }
+    .storeDetails {
+        margin-left: 2rem;
+    }
+    #form-book{
+        padding: 4rem 2.5rem;
+        width: 50%;
     }
 }

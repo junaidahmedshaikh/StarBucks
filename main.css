@@ -263,9 +263,10 @@ body {
 }
 /* New Launch Product */
 .newLaunch{
-    height: auto;
+    height: 80vh;
     width: 100vw;
     margin: 0;
+    padding: 0;
 }
 .newLaunch img{
     height: 100%;

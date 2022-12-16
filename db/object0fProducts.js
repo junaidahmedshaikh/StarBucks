@@ -173,3 +173,11 @@ let other = [
         detail: "lorem onmev onm",
     }, 
 ]
+
+//     const cardInfo = document.getElementsByClassName('cardInfo')[0]
+//     console.log(cardInfo);
+// drinks.forEach((drinks, index) => {
+//     // console.log('Name: ' + drinks.name)
+//     let name = document.createElement('');
+//     let itemPtext = document.createTextNode( `${drinks.name}; ${drinks.price}; ${drinks.id}`);
+// })

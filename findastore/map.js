@@ -6,27 +6,27 @@ function initMap() {
   const storeTwo = { lat:   19.010307214448012, lng: 72.83514918443701 }
   const storeThree = { lat:  19.025929403524476, lng: 72.8564136659764 }
   const storeFour = { lat: 19.012637406233466, lng: 72.82360781774369 }
-  // The map, adding maps and id from dom
+  // The map, map object 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 5,
     center: uluru,
   });
-  // positioned at starbucks coffe 
+  // positioned of starbucks store  
   const marker = new google.maps.Marker({
-    position: storeOne
+    position: storeOne,    // 1st Position
     map: storeOne,
   },
   {
-    position: lat,  // 2nd marker
-    map: lag,
+    position: storeTwo,  // 2nd Position
+    map: storeTwo,
   },
   {
-    position: lat,  // 3rd marker
-    map: lag,
+    position: storeThree,  // 3rd Position
+    map: storeThree,
   },
   {
-    position: lat,  // 4th marker
-    map: lag,
+    position: storeFour,  // 4th Position
+    map: storeFour,
   }
   );
 }

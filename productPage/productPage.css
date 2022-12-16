@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+:root {
+    --starbusks-color: #006241;
+    --accent-color: #00754a;
+    --light-green: #d4e9e2;
+    --house-green-color: #1e3932;
+    --neutral-white-color: #f9f9f9;
+    --white-color: #ffffff;
+    --warm-white-color: #f2f0eb;
+    --para-font: 'Roboto', sans-serif;
+    --space-heading-font: 'Oswald', sans-serif;
+    --caveat-font: 'Caveat', cursive;
+    --heading-font: 'Bebas Neue', cursive;
+    font-size: 10px;
+}
+
+#productPage_Main{
+    background-color: var(--warm-white-color);
+}
+.productMainPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:12rem 10rem;
+}
+
+.productMainPage {
+    /* border: 2px solid red; */
+}
+
+/* Left Side Section */
+.productPage_leftSide {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.productPage_infoBox_Title {
+    font-size: 3rem;
+    font-family: var(--space-heading-font);
+}
+
+.productPage_infoBox_starNprice span,.productPage_infoBox_starNprice span i {
+    font-size: 2rem;
+    font-family: var(--para-font);
+}
+.productPage_infoBox_starNprice span img{
+    height: 2rem;
+}
+.productPage_infoBox_kcal {
+    font-size: 1.5rem;
+    font-family: var(--para-font);
+}
+.productPage_infoBox_description p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: var(--para-font);
+}
+.productPage_infoBox_size{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    font-family: var(--para-font);
+}
+.productPage_infoBox_size span{
+    margin: 1rem 1.5rem;
+}
+.productPage_infoBox_size span img{
+    height: 5rem;
+}
+.productPage_infoBox_button a{
+    font-size: 1.5rem;
+    background: green;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-family: var(--para-font);
+}
+.productPage_infoBox_button a:hover{
+    /* box-shadow: 2px 2px 2px black; */
+    background-color: var(--house-green-color);
+    transition: all .3s;
+}
+/* Right Side Section */
+.productPage_rightSide {
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: 35vw;
+}
+.backgroundFor_product_section{
+    background: white;
+    border-radius: 30rem;
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.backgroundFor_product_section img{
+    position: relative;
+    z-index: 1;
+    object-fit:fill;
+    height: 100%;
+    width: 100%;
+}
+/* Media Query  */
+@media (max-width: 1190px) {
+    .productMainPage {
+        padding: 12rem 7rem;
+    }
+}
+@media (max-width: 1190px) {
+    .productMainPage {
+        padding: 12rem 7rem;
+    }
+}
+@media (max-width: 1075x) {
+    .productMainPage {
+        padding: 12rem 5rem;
+    }
+}
+@media (max-width: 864px) {
+    .productMainPage {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media (max-width: 1000px){
+    
+    .productPage_rightSide {
+        width: 40vw;
+    }
+    .backgroundFor_product_section {
+        width: 100%;
+    }
+}
+@media (max-width: 80rem){
+    .productMainPage {
+        padding: 12rem 8rem;
+    }
+    .productPage_infoBox_description{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 74rem){
+    .productMainPage{
+        padding: 12rem 6.5rem;
+    }
+}

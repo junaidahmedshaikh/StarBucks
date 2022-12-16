@@ -103,7 +103,9 @@ main {
         grid-template-columns: repeat(2, 1fr);
         height: 22rem;
     }
-    
+    #secondrowOf_1st_list{
+        display: none;
+    }
 }
 
 @media (max-width: 1150px) {
@@ -114,20 +116,40 @@ main {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media (max-width: 1000px) {
-    .sideNav {
-        margin-left: 2rem;
+    .backgroundFor_product_section {
+        width: 100%;
     }
 }
 
-@media (max-width: px) {}
+@media (max-width: 1000px) {
+    /* *{
+        font-size: 8px;
+    } */
+    .sideNav {
+        margin-left: 2rem;
+    }
+    .cardImg img{
+        
+    }
+}
+
+@media (max-width: 860px) {
+    .row-of-menu {
+        grid-template-columns: repeat(1, 1fr);
+        height: 22rem;
+    }
+}
+
+@media (max-width: 780rem) {
+    
+}
 
 @media (max-width: px) {}
-
-@media (max-width: px) {}
-
+@media (max-width: 40rem) {
+    .side-navbar{
+        display: none;
+    }
+}
 /* New Card For Menu Section */
 .cardBox {
     /* border: 2px solid black; */

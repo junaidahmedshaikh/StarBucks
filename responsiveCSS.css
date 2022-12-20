@@ -9,7 +9,7 @@
 
     .recommendBox {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /* Footer Section */
@@ -111,6 +111,16 @@
     #contact-form input{
         margin: 1rem 0;
         padding: .5rem 1rem;
+    }
+    .recommendBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #cardThreeInHomepage_Recommendation_section{
+        display: none;
+    }
+    .contentStrip{
+        display: none;
     }
 }
 
@@ -233,13 +243,6 @@
     .right-footer {
         padding: 3rem 1rem;
     }
-    /* Find A Store */
-    .fsHeader {
-        font-size: 3rem;
-    }
-    .storeDetails {
-        margin-left: 3rem;
-    }
      /* contact section */
      #form-book{
         padding: 5rem 2.5rem;
@@ -281,19 +284,16 @@
     .category-card span {
         font-size: 1.5rem;
     }
-    /* Find A Store */
-    .fsHeader {
-        font-size: 2rem;
-    }
-    .storeDetails {
-        margin-left: 2rem;
-    }
     #form-book{
         padding: 4rem 2.5rem;
         width: 50%;
     }
     .newLaunch{
       display: none;
+    }
+    .columeOne {
+        height: 90%;
+        width: 90%;
     }
 }
 @media (max-width: 600px){

@@ -55,3 +55,42 @@ input[type="search" i] {
 /* .map-section{
     border: 2px solid red;
 } */
+@media (max-width: 1000px) {
+    /* find a store */
+    #findastoreMain{
+        display: grid;
+        grid-template-columns: none;
+    }
+    .storeDetails{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 60rem) {
+    .fsHeader {
+        font-size: 3rem;
+    }
+    .storeDetails {
+        margin-left: 3rem;
+    }
+}
+@media (max-width: 490px) {
+    /* Find A Store */
+    .fsHeader {
+        font-size: 2rem;
+    }
+    .storeDetails {
+        margin-left: 2rem;
+    }
+    #form-book{
+        padding: 4rem 2.5rem;
+        width: 50%;
+    }
+    .newLaunch{
+      display: none;
+    }
+    .columeOne {
+        height: 90%;
+        width: 90%;
+    }
+}

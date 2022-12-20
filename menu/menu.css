@@ -149,14 +149,18 @@ main {
     .side-navbar{
         display: none;
     }
+    .cardBox {
+        /* border: 2px solid black; */
+        width: max(30rem, 35rem);
+        margin: 0rem;}
+        .row-of-menu {
+            height: 25rem;
+        }
 }
 /* New Card For Menu Section */
 .cardBox {
-    /* border: 2px solid black; */
-    /* height: auto;
-    width: 30%; */
     width: max(30rem, 35rem);
-    margin: 2rem;
+    margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: var(--neutral-white-color);

@@ -20,7 +20,11 @@
 }
 
 #productPage_Main{
+    width: 80vw;
+    height: 80vh;
     background-color: var(--warm-white-color);
+    display: block;
+    margin: auto;
 }
 .productMainPage {
     display: grid;
@@ -89,13 +93,15 @@
 .productPage_rightSide {
     /* border: 2px solid red; */
     height: 60vh;
-    width: 35vw;
+    display: grid;
+    width: 40vw;
+    grid-template-columns: 10fr 1fr;
 }
 .backgroundFor_product_section{
     background: white;
     border-radius: 30rem;
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -105,6 +111,25 @@
     object-fit:fill;
     height: 100%;
     width: 100%;
+}
+/* Right Sidebar / Cup size */
+.productPage_rightSizeBar{
+    /* border: 2px solid red; */
+    height: auto;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+.productPage_rightSizeBar_circle{
+    display: grid;
+    place-items: center;
+}
+.productPage_rightSizeBar_circle img{
+    height: 5rem;
+    /* width: auto; */
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    padding: 1rem;
 }
 /* Media Query  */
 @media (max-width: 1190px) {

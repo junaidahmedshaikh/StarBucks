@@ -74,7 +74,7 @@ input[type="search" i] {
         margin-left: 3rem;
     }
 }
-@media (max-width: 490px) {
+@media (max-width: 49rem) {
     /* Find A Store */
     .fsHeader {
         font-size: 2rem;

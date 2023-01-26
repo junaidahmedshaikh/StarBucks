@@ -25,12 +25,7 @@ main {
     grid-template-columns: 1fr 5fr;
 }
 
-/* Side Navbar  */
-/* .side-navbar{
-    border: 2px solid red; 
-} */
 .sideNav {
-    /* border: 2px solid red; */
     margin-left: 9.5rem;
 }
 
@@ -61,9 +56,6 @@ main {
 }
 
 /* Base Of Menu Css */
-.baseMenu {
-    /* border: 2px solid blue; */
-}
 
 .menu-header {
     font-size: 3rem;
@@ -94,7 +86,7 @@ main {
     height: 22rem;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 119rem) {
     .sideNav {
         margin-left: 7rem;
     }
@@ -108,7 +100,7 @@ main {
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 115rem) {
     .sideNav {
         margin-left: 6rem;
     }
@@ -121,7 +113,7 @@ main {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 100rem) {
     /* *{
         font-size: 8px;
     } */
@@ -133,7 +125,7 @@ main {
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 86rem) {
     .row-of-menu {
         grid-template-columns: repeat(1, 1fr);
         height: 22rem;
@@ -149,9 +141,14 @@ main {
     .side-navbar{
         display: none;
     }
+    .baseMenu {
+        width: 100vw;
+    }
+    .menu-section {
+        place-items: center;
+    }
     .cardBox {
-        /* border: 2px solid black; */
-        width: max(30rem, 35rem);
+        width: max(20rem, 25rem);
         margin: 0rem;}
         .row-of-menu {
             height: 25rem;
@@ -168,7 +165,6 @@ main {
 }
 
 .cardImg {
-    /* border: 2px solid red; */
     height: 100%;
     width: 100%;
     /* padding: 1rem 0; */
@@ -186,7 +182,6 @@ main {
 }
 
 .cardInfo{
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;

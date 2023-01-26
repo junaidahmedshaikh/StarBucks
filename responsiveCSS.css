@@ -51,7 +51,7 @@
     
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 100rem) {
     .main-heading {
         font-size: 4rem;
         letter-spacing: 4px;
@@ -83,7 +83,7 @@
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 86rem) {
     .main-heading {
         font-size: 3.4rem;
     }
@@ -124,7 +124,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 70rem) {
 
     #hero-cup {
         position: relative;
@@ -136,8 +136,8 @@
         text-shadow: 2px 2px 3px black;   
      }
 
-    .main-desc {
-        font-size: 1.4rem;
+     .main-desc {
+        font-size: 1rem;
         text-shadow: 2px 2px 3px black;
     }
     .main-button {
@@ -200,7 +200,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 60rem) {
     .category {
         padding: 5rem 5rem;
     }
@@ -257,7 +257,7 @@
     }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 49rem) {
     .main-heading {
         font-size: 3rem;
         letter-spacing: 2px;
@@ -300,9 +300,6 @@
     #cardThreeInHomepage_Recommendation_section{
      display: none; 
     }
-    /* .recommendOne{
-        height: auto;
-    } */
     .main-footer{
         grid-template-columns: auto;
     }

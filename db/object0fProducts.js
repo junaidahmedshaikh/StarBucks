@@ -173,11 +173,29 @@ let other = [
         detail: "lorem onmev onm",
     }, 
 ]
+const hotCoffe = [
+    {
+        id: "HTC",
+        image: "",
+        name: "Arabica Coffee",
+        price: "290rs",
+        kcal: "900kcal",
+        detail: "lorem onmev onm",
+    }
+    ,{
+        id: "HTC2",
+        image: "",
+        name: "Rubista Coffee",
+        price: "400rs",
+        kcal: "700kcal",
+        detail: "lorem onmev onm",
+    }
+]
 
-//     const cardInfo = document.getElementsByClassName('cardInfo')[0]
-//     console.log(cardInfo);
-// drinks.forEach((drinks, index) => {
-//     // console.log('Name: ' + drinks.name)
-//     let name = document.createElement('');
-//     let itemPtext = document.createTextNode( `${drinks.name}; ${drinks.price}; ${drinks.id}`);
-// })
+    const cardInfo = document.getElementsByClassName('cardInfo')[0]
+    console.log(cardInfo);
+drinks.forEach((drinks, index) => {
+    // console.log('Name: ' + drinks.name)
+    let name = document.createElement('');
+    let itemPtext = document.createTextNode( `${drinks.name}; ${drinks.price}; ${drinks.id}`);
+})

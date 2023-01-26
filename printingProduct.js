@@ -1,1 +1,1 @@
-console.log(coffeeAndtea);
+const productObject = document.getElementsByClassName("cardBox");

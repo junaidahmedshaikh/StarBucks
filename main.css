@@ -39,7 +39,6 @@ body {
 
 .hamburger {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .hamburger li {
@@ -100,7 +99,7 @@ body {
 }
 .sideLogin:hover{
     background-color: var(--light-green);
-      /* border: 2px solid var(--light-green); */
+    /* border: 2px solid var(--light-green); */
     /* color: white; */
 }
 /* Homepage section */
@@ -108,7 +107,6 @@ body {
     background-color: var(--starbusks-color);
     height: 90vh;
     display: flex;
-    /* background-image: url(/Background.jpg); */
 }
 
 .homeback {
@@ -227,7 +225,6 @@ body {
     border-bottom: 2px solid var(--accent-color);
     image-rendering: pixelated;
     transition: all .2s;
-    /* border-top: 2px solid var(--starbusks-color); */
 }
 
 /* Content Strip */
@@ -490,9 +487,7 @@ flex-direction: column;
 #contact-form input::placeholder{
     color: var(--accent-color);
 }
-/* #contact-submit{
-    color: white;
-} */
+
 #contact-submit {
     text-decoration: none;
     color: white;
